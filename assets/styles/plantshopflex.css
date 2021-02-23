@@ -1,0 +1,394 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0px 0px 80px 0px;
+}
+
+.first_row {
+    display: flex;
+    height: 740px;
+    margin: 0px 0px 142px 0px;
+}
+
+.first_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first_nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 36px;
+    padding: 40px 56px 0px 0px;
+}
+
+.article_1 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 519px;
+    height: 286px;
+    margin: 110px 76px 110px 77px;
+}
+
+.mainnav {
+    margin: 0px 56px 80px 56px;
+}
+
+.mainnav_row {
+    display: inline-flex;
+    flex-direction: row;
+    flex: 0 1 1168px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 155px;
+}
+
+.nav_column {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 268px;
+    padding: 22px 16px 21px 16px;
+    border: 1px solid #E0E0E0;
+}
+
+.plants {
+    margin: 0px 56px 80px 56px;
+}
+
+.plants_row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 1 1168px;
+    height: 352px;
+}
+
+.plants_selection_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 31px;
+}
+
+.plants_variety_row {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 281px;
+    border-top: 1px solid #E0E0E0;
+    padding-top: 24px;
+}
+
+.plants-variety {
+    text-align: center;
+    height: 281px;
+    margin: 0;
+    padding: 0;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    height: 610px;
+    margin: 0px 56px 80px 56px;
+}
+
+.second_row {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 1168px;
+}
+
+.article_2 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 568px;
+    height: 610px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 10px 0px 21px;
+}
+
+.second_image {
+    margin: 0px 0px 0px 84px;
+}
+
+.visit {
+    display: flex;
+    flex-direction: row;
+    height: 360px;
+    margin: 0px 56px 80px 56px;
+}
+
+.visit_row {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 1168px;
+    height: 360px;
+    background-color: #F3F4F6;
+}
+
+.visit_body {
+    max-width: 688px;
+    padding: 88px 8px 88px 97px;
+    margin-right: 60px;
+}
+
+.visit_image {
+    max-width: 480px;
+}
+
+.footer {
+    border-top: 1px solid #156963;
+}
+
+.footer_row {
+    display: flex;
+    height: 268px;
+    justify-content: space-between;
+    padding: 60px 147px 71px 147px;
+}
+
+.footer_adress {
+    display: flex;
+    flex-direction: column;
+    height: 137px;
+    width: 282px;
+}
+
+.footer_list1,
+.footer_list2 {
+    height: 137px;
+    width: 155px;
+}
+
+.footer_email {
+    height: 137px;
+    width: 234px
+}
+
+#logo {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 40px;
+    left: 53px;
+}
+
+#companylogo {
+    width: 112px;
+    height: 24px;
+}
+
+.searchicon {
+    width: 20px;
+    height: 20px;
+}
+
+.shoppingcart {
+    width: 20px;
+    height: 20px;
+}
+
+.imagine0 {
+    width: 608px;
+    height: 740px;
+}
+
+.imagine1 {
+    width: 217px;
+    height: 217px;
+}
+
+.imagine2 {
+    width: 513px;
+    height: 609.9px;
+}
+
+.imagine3 {
+    width: 568px;
+    height: 250px;
+}
+
+.imagine4 {
+    width: 1168px;
+    height: 360px;
+}
+
+.imagine5 {
+    width: 480px;
+    height: 360px;
+}
+
+.menu {
+    color: #156963;
+    text-decoration: none;
+    padding: 6px;
+    font-family: 'Nunito', Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+#mainmenu .menu {
+    font-size: 16px;
+}
+
+#mainmenu .icon {
+    width: 48px;
+    height: 48px;
+}
+
+#mainmenu .description {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.classific {
+    color: #000000;
+    font-family: 'Montserrat', Verdana, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.plants-variety p {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.visitshop {
+    color: #FAFEFE;
+    width: 152px;
+    height: 40px;
+    font-family: 'Nunito', Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.submit {
+    color: #FFFFFF;
+    width: 51px;
+    height: 22px;
+    font-family: 'Raleway', Tahoma, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 8px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.address {
+    color: #4F4F4F;
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', Verdana, sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    color: #156963;
+    font-weight: 500;
+    font-size: 68px;
+}
+
+h2 {
+    color: #2C1500;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3 {
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+p {
+    color: #2C1500;
+    font-family: 'Montserrat', Verdana, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+li {
+    color: #000000;
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.name {
+    color: #333333;
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+button {
+    background-color: #156963;
+}
+
+button:active {
+    color: crimson;
+}
+
+.previous,
+.next {
+    width: 320px;
+    height: 160px;
+}
+
+.previous {
+    background-color: white;
+    margin-left: 30px;
+}
+
+input:valid {
+    background-color: palegreen;
+}
+
+input:invalid {
+    background-color: palevioletred;
+}
+
+.email {
+    color: #000000;
+    opacity: 0.5;
+}
